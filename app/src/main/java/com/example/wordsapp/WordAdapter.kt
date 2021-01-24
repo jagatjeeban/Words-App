@@ -47,7 +47,7 @@ class WordAdapter(private val letterId: String, context: Context) :
             // Returns a collection that it has shuffled in place
             .shuffled()
             // Returns the first n items as a [List]
-            .take(20)
+            .take(5)
             // Returns a sorted version of that [List]
             .sorted()
     }
